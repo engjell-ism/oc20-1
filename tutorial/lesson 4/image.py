@@ -43,6 +43,8 @@ while running:
         elif event.type == MOUSEBUTTONUP:
             moving = False
             
+        #ici, on peut rajouter un "and moving" pour faire en sorte que l'image se transforme que lorsque l'on click sur la souris   
+            
         elif event.type == MOUSEMOTION:
             rect.move_ip(event.rel)
             mouse = event.pos
